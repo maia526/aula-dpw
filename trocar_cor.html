@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- A página apresenta um texto com cinco
+parágrafos. Os parágrafos 1, 3 e 5 ficam com a cor
+azul após o usuário clicar em um botão. -->
+    <p id="p1">iwdjqnfgvksgv</p>
+    <p id="p2">aegobvnmjokfam</p>
+    <p id="p3">SAFIGN IFNG FAIOSN</p>
+    <p id="p4">KJSF OASOIJ F</p>
+    <p id="p5">kfjaml,FWEPOFKMV</p>
+    <button onclick="mudaCor()">Troca a cor</button>
+
+    <script>
+        function mudaCor(){
+            const p1 = document.getElementById('p1')
+            const p3 = document.getElementById('p3')
+            const p5 = document.getElementById('p5')
+
+            p1.style.color = 'blue'
+            p3.style.color = 'blue'
+            p5.style.color = 'blue'
+        }
+    </script>
+</body>
+</html>

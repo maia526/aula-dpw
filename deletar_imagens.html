@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- A página apresenta 3 imagens, quando o
+usuário clica em uma imagem, ela desaparece. -->
+    <img id = foto1 src="imagem1.webp" alt="">
+    <img id = foto2 src="imagem3.webp" alt="">
+    <img id = foto3 src="imagem1.webp" alt="">
+    <button onclick="apaga1()">Remove Primeira Imagem</button>
+    <button onclick="apaga2()">Remove Segunda Imagem</button>
+    <button onclick="apaga3()">Remove Terceira Imagem</button>
+
+    <script>
+        function apaga1(){
+            document.getElementById('foto1').remove()
+        }
+
+        function apaga2(){
+            document.getElementById('foto2').remove()
+        }
+
+        function apaga3(){
+            document.getElementById('foto3').remove()
+        }
+    </script>
+</body>
+</html>
